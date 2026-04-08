@@ -10,6 +10,11 @@ public class MiClase
         if (tipoCliente == 1)
         {
             if (esVIP) return total * DESC20;
+            string conflicto = """
+                               
+                                MENUDO LÍO!!
+                                
+                               """;
             return total * DESC10;
         }
 
