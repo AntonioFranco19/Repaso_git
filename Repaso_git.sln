@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso_git", "Repaso_git\Repaso_git.csproj", "{3AEEE947-1D26-4301-8F47-19EBC6E4A348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso_git.Tests", "Repaso_git.Tests\Repaso_git.Tests.csproj", "{02BC2404-2936-4742-82CF-03EA8C8CFB5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AEEE947-1D26-4301-8F47-19EBC6E4A348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEEE947-1D26-4301-8F47-19EBC6E4A348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEEE947-1D26-4301-8F47-19EBC6E4A348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEEE947-1D26-4301-8F47-19EBC6E4A348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BC2404-2936-4742-82CF-03EA8C8CFB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BC2404-2936-4742-82CF-03EA8C8CFB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BC2404-2936-4742-82CF-03EA8C8CFB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BC2404-2936-4742-82CF-03EA8C8CFB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
