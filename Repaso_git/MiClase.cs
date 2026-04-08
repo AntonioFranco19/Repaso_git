@@ -2,19 +2,18 @@ namespace Repaso_git;
 
 public class MiClase
 {
+    private const decimal DESC20 = 0.8m;
+    private const decimal DESC10 = 0.9m;
+    private const decimal DESC5 = 0.95m;
     public decimal Calcular(decimal total, int tipoCliente, bool esVIP) {
-        decimal final = 0;
-        if (tipoCliente == 1) {
-            if (esVIP) {
-                final = total * 0.8m;
-            } else {
-                final = total * 0.9m;
-            }
-        } else if (tipoCliente == 2) {
-            final = total * 0.95m;
-        } else {
-            final = total;
+        
+        if (tipoCliente == 1)
+        {
+            if (esVIP) return total * DESC20;
+            return total * DESC10;
         }
-        return final;
+
+        if (tipoCliente == 2) return total * DESC5;
+        return total;
     }
 }
