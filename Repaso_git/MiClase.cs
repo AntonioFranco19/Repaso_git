@@ -18,6 +18,7 @@ public class MiClase
         if (tipoCliente == 1)
         {
             if (esVIP) return total * DESC20;
+            string chiste = "Jaja, es gracioso porque te he generado conflictos";
             return total * DESC10;
         }
 
